@@ -48,10 +48,10 @@ class WhatsappButton extends Button {
           display: flex;
           align-items: center;
           justify-content: center;
-          height: 40px;
+          height: 56px;
           width: auto;
           font-family: Roboto, sans-serif;
-          font-size: 14px;
+          font-size: 20px;
           transition: all ease-in-out 100ms;
         }
 
@@ -66,7 +66,7 @@ class WhatsappButton extends Button {
           }
 
           #button {
-            width: 80vw;
+            width: 90vw;
             border-radius: 20px;
           }
         }
