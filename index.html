@@ -2,10 +2,52 @@
 <html>
 <head>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YE4Y2YPLL8"></script>
-	
+
+<style>
+	.whatsapp_button_container {
+	  width: 100%;
+	  display: flex;
+	  justify-content: center;
+	  z-index: 1000;
+	}
+	.whatsapp_button {
+	  background: rgb(2, 231, 119);
+	  padding: 2vh 2vw;
+	  border-radius: 40px;
+	  box-shadow: rgb(0 0 0 / 14%) 0px 4px 9px;
+	  color: white;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  border: none;
+	}
+	.button_text {
+	  font-size: 1.25em;
+	  font-family: Roboto, sans-serif;
+	}
+	.button_icon {
+	  height: 2em;
+	  margin-left: 0.5vw;
+	}
+	@media (max-width: 600px) {
+		.whatsapp_button_container {
+           width: auto;
+          }
+
+          .whatsapp_button {
+            width: 90vw;
+            border-radius: 20px;
+          }
+    }
+  </style>
+
+<script> var wtp_url = "https://api.whatsapp.com/send?phone=919039547315&text=Hey!%20I%27d%20like%20to%20buy%20books!" </script>
+
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -42,7 +84,17 @@
 	<main>
 		<div class="intro">Indore!</div> 
 		<div class="tagline">Get all your Books 📚 📙 📖 and stationery 📐📏from Khajuri Bazaar delivered right to your doorstep!</div>
-		<whatsapp-button phone="9039547315" dialcode="91" text="I'd like to buy books from Khajuri Bazaar!" label="Click here to order on WhatsApp!"></whatsapp-button>
+		<div class="whatsapp_button_container">
+			<button class="whatsapp_button" onclick="window.open(wtp_url);">
+			  <div class="button_text">CLICK HERE TO ORDER ON WHATSAPP</div>
+			  <div class="button_icon">
+				<i class="fab fa-whatsapp" style="
+				font-size: xx-large;
+			"></i>
+			  </div>
+			</button>
+		  </div>
+		<!-- <whatsapp-button phone="9039547315" dialcode="91" text="I'd like to buy books from Khajuri Bazaar!" label="Click here to order on WhatsApp!"></whatsapp-button> -->
 		<!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
 <!-- 		<div class="icons-social">
 			<a target="_blank" href="https://github.com/flexdinesh"><i class="fab fa-github"></i></a>
