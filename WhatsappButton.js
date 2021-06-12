@@ -49,7 +49,7 @@ class WhatsappButton extends Button {
           align-items: center;
           justify-content: center;
           height: 40px;
-          width: 180px;
+          width: auto;
           font-family: Roboto, sans-serif;
           font-size: 14px;
           transition: all ease-in-out 100ms;
