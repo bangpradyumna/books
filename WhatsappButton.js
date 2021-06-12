@@ -62,15 +62,15 @@ class WhatsappButton extends Button {
 
         @media (max-width: 600px) {
           :host {
-            position: fixed;
-            bottom: 0 !important;
-            right: 0 !important;
-            left: 0 !important;
-            padding: 15px 0 10px;
-            background: white;
-            width: 100vw;
-            border-top-left-radius: 20px;
-            border-top-right-radius: 20px;
+//             position: fixed;
+//             bottom: 0 !important;
+//             right: 0 !important;
+//             left: 0 !important;
+//             padding: 15px 0 10px;
+//             background: white;
+//             width: 100vw;
+//             border-top-left-radius: 20px;
+//             border-top-right-radius: 20px;
           }
 
           #button {
