@@ -68,7 +68,6 @@ class WhatsappButton extends Button {
             left: 0 !important;
             padding: 15px 0 10px;
             background: white;
-            box-shadow: 0 -10px 20px 0 rgb(238, 238, 238);
             width: 100vw;
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
