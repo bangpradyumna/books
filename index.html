@@ -1,79 +1,100 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="UTF-8">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+		integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YE4Y2YPLL8"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-YE4Y2YPLL8"></script>
 
-<style>
-	.whatsapp_button_container {
-	  width: 100%;
-	  display: flex;
-	  justify-content: center;
-	  z-index: 1000;
-	}
-	.whatsapp_button {
-	  background: rgb(2, 231, 119);
-	  padding: 2vh 2vw;
-	  border-radius: 40px;
-	  box-shadow: rgb(0 0 0 / 14%) 0px 4px 9px;
-	  color: white;
-	  display: flex;
-	  justify-content: center;
-	  align-items: center;
-	  border: none;
-	}
-	.button_text {
-	  font-size: 1.25em;
-	  font-family: Roboto, sans-serif;
-	}
-	.button_icon {
-	  height: 2em;
-	  margin-left: 0.5vw;
-	}
-	@media (max-width: 600px) {
+	<style>
 		.whatsapp_button_container {
-           width: auto;
-          }
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			z-index: 1000;
+		}
 
-          .whatsapp_button {
-            width: 90vw;
-            border-radius: 20px;
-          }
-    }
-  </style>
+		.whatsapp_button {
+			background: rgb(18 185 103);
+			padding: 2vh 2vw;
+			border-radius: 40px;
+			box-shadow: rgb(0 0 0 / 14%) 0px 4px 9px;
+			color: white;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border: none;
+		}
 
-<script> var wtp_url = "https://api.whatsapp.com/send?phone=919039547315&text=Hey!%20I%27d%20like%20to%20buy%20books!" </script>
+		.button_text {
+			font-size: 1.25em;
+			font-family: Roboto, sans-serif;
+			margin-right: 1rem;
+		}
 
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+		.button_icon {
+			margin-left: 0.5vw;
+		}
 
-  gtag('config', 'G-YE4Y2YPLL8');
-</script>
+		@media (max-width: 600px) {
+			.whatsapp_button_container {
+				width: auto;
+			}
 
-<!-- Facebook Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '1419013805128056');
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=1419013805128056&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
+			.whatsapp_button {
+				width: 90vw;
+				border-radius: 20px;
+			}
+		}
+	</style>
+
+	<script>
+		var wtp_url = "https://api.whatsapp.com/send?phone=919039547315&text=Hey!%20I%27d%20like%20to%20buy%20books!"
+	</script>
+
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'G-YE4Y2YPLL8');
+	</script>
+
+	<!-- Facebook Pixel Code -->
+	<script>
+		! function (f, b, e, v, n, t, s) {
+			if (f.fbq) return;
+			n = f.fbq = function () {
+				n.callMethod ?
+					n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n;
+			n.push = n;
+			n.loaded = !0;
+			n.version = '2.0';
+			n.queue = [];
+			t = b.createElement(e);
+			t.async = !0;
+			t.src = v;
+			s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '1419013805128056');
+		fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+			src="https://www.facebook.com/tr?id=1419013805128056&ev=PageView&noscript=1" /></noscript>
+	<!-- End Facebook Pixel Code -->
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -88,9 +109,9 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<script type="module">
-  import './WhatsappButton.js';
+		import './WhatsappButton.js';
 </script>
-<!-- 	<link rel="stylesheet" href="css/themes/indigo-white.css"> -->
+	<!-- 	<link rel="stylesheet" href="css/themes/indigo-white.css"> -->
 	<!-- <link rel="stylesheet" href="css/themes/green-white.css"> -->
 	<!-- <link rel="stylesheet" href="css/themes/red-white.css"> -->
 	<!-- <link rel="stylesheet" href="css/themes/grey-white.css"> -->
@@ -100,23 +121,25 @@
 	<!-- <link rel="stylesheet" href="css/themes/white-red.css"> -->
 	<!-- <link rel="stylesheet" href="css/themes/yellow-black.css"> -->
 </head>
+
 <body>
 	<main>
-		<div class="intro">Indore!</div> 
-		<div class="tagline">Get all your Books 📚 📙 📖 and stationery 📐📏from Khajuri Bazaar delivered right to your doorstep!</div>
+		<div class="intro">Indore!</div>
+		<div class="tagline">Get all your Books 📚 📙 📖 and stationery 📐📏from Khajuri Bazaar delivered right to your
+			doorstep!</div>
 		<div class="whatsapp_button_container">
 			<button class="whatsapp_button" onclick="window.open(wtp_url);">
-			  <div class="button_text">CLICK HERE TO ORDER ON WHATSAPP</div>
-			  <div class="button_icon">
-				<i class="fab fa-whatsapp" style="
+				<div class="button_text">CLICK HERE TO ORDER ON WHATSAPP</div>
+				<div class="button_icon">
+					<i class="fab fa-whatsapp" style="
 				font-size: xx-large;
 			"></i>
-			  </div>
+				</div>
 			</button>
-		  </div>
+		</div>
 		<!-- <whatsapp-button phone="9039547315" dialcode="91" text="I'd like to buy books from Khajuri Bazaar!" label="Click here to order on WhatsApp!"></whatsapp-button> -->
 		<!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
-<!-- 		<div class="icons-social">
+		<!-- 		<div class="icons-social">
 			<a target="_blank" href="https://github.com/flexdinesh"><i class="fab fa-github"></i></a>
 			<a target="_blank" href="https://twitter.com/flexdinesh"><i class="fab fa-twitter"></i></a>
 			<a target="_blank" href="https://dev.to/flexdinesh"><i class="fab fa-dev"></i></a>
@@ -127,13 +150,14 @@
 			<a target="_blank" href="https://www.behance.net"><i class="fab fa-behance"></i></a>
 			<a target="_blank" href="https://codepen.io"><i class="fab fa-codepen"></i></a>
     </div> -->
-<!-- 		<div class="d-grid gap-2 col-6 mx-auto">
+		<!-- 		<div class="d-grid gap-2 col-6 mx-auto">
   <button class="btn btn-primary" type="button">Button</button>
   <button class="btn btn-primary" type="button">Button</button>
 </div> -->
 	</main>
-	
+
 
 
 </body>
+
 </html>
